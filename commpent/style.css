@@ -6,3 +6,10 @@ font-family: sans-serif;
 transform: scale(1.02);
 transition: 0.2s;
 }
+.issue-card{
+transition:0.2s;
+}
+
+.issue-card:hover{
+transform:translateY(-3px);
+}
