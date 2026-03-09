@@ -1,5 +1,8 @@
-document
-.getElementById("loginForm")
+window.onload = function(){
+    document.getElementById("loginForm").reset();
+}
+
+document.getElementById("loginForm")
 .addEventListener("submit", function(e){
 
 e.preventDefault()
